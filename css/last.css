@@ -1,0 +1,72 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea{
+	margin:0;
+	padding:0;
+}
+body,html{
+    height: 100%;
+}
+a{
+	text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    background-image: url(../img/lastImg.jpg);
+    background-size: 100% 100%;
+}
+/* header */
+
+.header1{
+    height: 96px;
+    width: 100%;
+    background: pink;
+}
+.boxA{
+    height: 96px;
+    width: 1570px;
+    background: green;
+    margin: 0 auto;
+}
+.boxA1{
+    height: 100%;
+    width: 410px;
+    background: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+}
+.boxA1 li{
+    font-size: 20px;
+    
+}
+.boxA1 li a{
+    color: #6b7980;
+}
+.boxA1 li a:hover{
+    color: skyblue;
+}
+.boxA img{
+    margin-left: 354px;
+    margin-top: 40px;
+    float: left;
+    
+}
+.boxA2{
+    width: 210px;
+    height: 96px;
+    background: skyblue;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxA2 a span{
+    font-size: 24px;
+    color: #081f2c;
+}
+.boxA2 a span:last-child{
+    margin-right: 8px;
+}
+
